@@ -47,14 +47,13 @@ const router = createBrowserRouter([
     path: "/ResetPassword",
     element: <ResetPassword />,
   },
-
-  {
-    path: "*",
-    element: <ErrorPage />,
-  },
   {
     path: "/profile",
     element: <Profile />,
+  },
+  {
+    path: "*",
+    element: <ErrorPage />,
   },
 ]);
 
