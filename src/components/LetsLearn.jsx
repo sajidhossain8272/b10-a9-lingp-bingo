@@ -62,7 +62,8 @@ const LetsLearn = () => {
         </div>
       </div>
 
-      <h1 className="flex justify-center text-3xl pt-10 pb-4 font-bold">Video Tutorials:<span className="font-medium pl-1">Explore helpful videos to learn vocabulary</span></h1>
+      <h1 className="flex justify-center pl-4 pr-4 lg:text-3xl pt-10 pb-4 font-bold">Explore helpful videos to learn vocabulary </h1>
+
       <div className="flex justify-center pb-10">
         <NavLink className="btn bg-green-500 " to="/tutorial">
           {" "}
