@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import Footer from "./Footer";
 import Nav from "./Nav";
 import { Helmet } from "react-helmet-async";
@@ -77,10 +78,10 @@ const Tutorials = () => {
         </div>
 
         <div className='flex justify-center pb-10 pt-10'>
-          <button className='btn bg-green-300 font-bold dark:text-base-200 '>
+        <NavLink to="/lets-learn" className='btn bg-green-300 font-bold dark:text-base-200 '>
             {" "}
             Learn Vocabularies{" "}
-          </button>
+          </NavLink>
         </div>
       </section>
       <Footer />
